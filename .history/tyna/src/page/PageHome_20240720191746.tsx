@@ -1,8 +1,11 @@
 import img4 from '../../public/img/img4.png'
 import img4I from '../../public/img/img4.1.png'
 import img4II from '../../public/img/img4.2.png'
+import { IoCall } from "react-icons/io5";
 import { FaArrowAltCircleRight } from "react-icons/fa";
+import React from 'react';
 const PageHome = () => {
+    const [isShow, setIsShow] = React.useState<boolean>(false);
     return (
         <div className='mt-32 mb-5 w-[1120px]  flex justify-around flex-col  m-auto leading-7 '>
             <p className='text-[#333] text-[15px] uppercase font-[500] mx-9 tracking-wider mb-2'>Nguyễn Thị Ty Na</p>
@@ -50,12 +53,31 @@ const PageHome = () => {
                         đầy năng lượng. Hãy chọn cho mình một loại tinh dầu nước hoa phù hợp và thử sức với những khám phá mới mẻ trong mỗi ngày hè
                         năng động này!</p>
                 </div>
-                <div className='flex items-center justify-center gap-5  mt-3'>
-                    <b className='bg-orange-400 p-2 rounded-md'>Gọi ngay hotline: 0856222454</b>
-                </div>
-            </div>
+                <button
+                    className="flex items-center justify-center bg-slate-200 py-1 px-3 w-[100px]  text-slate-300"
+                    onClick={() => {
+                        setIsShow(!isShow);
+                    }}
+                >
+                    <AiOutlineLike /><span> Thích</span>
+                </button>
+                {isShow && (
+                    <div className="btnfb">
+                        <button
+                            className="flex items-center justify-center bg-slate-200  py-5 px-3 w-[100px] text-sky-500 absolute top-5"
+                            onClick={() => {
+                                setIsShow(!isShow);
+                            }}
+                        >
+                            {isShow ? <AiFillLike /> : <AiOutlineLike />}<span> Thích</span>
+                        </button>
+                        {/* <div className='flex items-center gap-5 mt-3'>
+                    <IoCall className='text-[25px] text-green-600' />
+                    <p>Gọi ngay hotline: 0856222454</p>
+                </div> */}
+                    </div>
         </div>
-    )
+            )
 }
 
-export default PageHome
+            export default PageHome

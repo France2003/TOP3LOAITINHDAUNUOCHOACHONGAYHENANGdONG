@@ -50,8 +50,8 @@ const PageHome = () => {
                         đầy năng lượng. Hãy chọn cho mình một loại tinh dầu nước hoa phù hợp và thử sức với những khám phá mới mẻ trong mỗi ngày hè
                         năng động này!</p>
                 </div>
-                <div className='flex items-center justify-center gap-5  mt-3'>
-                    <b className='bg-orange-400 p-2 rounded-md'>Gọi ngay hotline: 0856222454</b>
+                <div className='flex items-center gap-5 mt-3'>
+                    <p className='bg-orange-400 p-2 rounded-md'>Gọi ngay hotline: 0856222454</p>
                 </div>
             </div>
         </div>

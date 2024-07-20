@@ -51,7 +51,7 @@ const PageHome = () => {
                         năng động này!</p>
                 </div>
                 <div className='flex items-center justify-center gap-5  mt-3'>
-                    <b className='bg-orange-400 p-2 rounded-md'>Gọi ngay hotline: 0856222454</b>
+                    <p className='bg-orange-400 p-2 rounded-md'>Gọi ngay hotline: <b>0856222454</b></p>
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import img4 from '../../public/img/img4.png'
 import img4I from '../../public/img/img4.1.png'
 import img4II from '../../public/img/img4.2.png'
+import { IoCall } from "react-icons/io5";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 const PageHome = () => {
     return (
@@ -16,7 +17,7 @@ const PageHome = () => {
                     <p className='alt'>Tinh dầu nước hoa Matcha Chilling Day</p>
                 </div>
                 <p className='text-center italic mb-3'>Tinh dầu nước hoa Matcha Chilling Day phù hợp cho mọi lứa tuổi</p>
-                <p className='text-[17px]'><b>Matcha Chilling Day</b> nằm trong <a href="https://sonice.com.vn/blogs/news/top-3-tinh-dau-huong-nuoc-hoa-duoc-ua-chuong-nhat-tai-so-nice" className='decoration-solid text-blue-500' target='_blank'>top 3 tinh dầu nước hoa được giới trẻ ưa chuộng</a> với mùi hương dịu mát và tươi mới.
+                <p className='text-[17px]'><b>Matcha Chilling Day</b> nằm trong <a href="https://sonice.com.vn/blogs/news/top-3-tinh-dau-huong-nuoc-hoa-duoc-ua-chuong-nhat-tai-so-nice" className='decoration-solid'>top 3 tinh dầu nước hoa được giới trẻ ưa chuộng</a> với mùi hương dịu mát và tươi mới.
                     Phù hợp cho những ngày hè nóng nực giúp xua tan cái nắng oi bức mang lại sự thư thái, sảng khoái.
                     Sự lựa chọn để bắt đầu một ngày mới tràn đầy năng lượng cho mọi hoạt động.</p>
             </div>
@@ -50,8 +51,9 @@ const PageHome = () => {
                         đầy năng lượng. Hãy chọn cho mình một loại tinh dầu nước hoa phù hợp và thử sức với những khám phá mới mẻ trong mỗi ngày hè
                         năng động này!</p>
                 </div>
-                <div className='flex items-center justify-center gap-5  mt-3'>
-                    <b className='bg-orange-400 p-2 rounded-md'>Gọi ngay hotline: 0856222454</b>
+                <div className='flex items-center gap-5 mt-3'>
+                    <IoCall className='text-[25px] text-green-600' />
+                    <p>Gọi ngay hotline: 0856222454</p>
                 </div>
             </div>
         </div>

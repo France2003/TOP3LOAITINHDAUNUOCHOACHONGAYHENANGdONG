@@ -140,7 +140,6 @@ input{
 }
 .imgAlt img{
   display: block;
-  transition: 0.5s;
 }
 .imgAlt .alt{
   display: none;
@@ -148,9 +147,7 @@ input{
   top: 0;
   left: 0;
   font-size: 15px;
-  transition: 0.5s;
 }
 .imgAlt:hover .alt{
   display: block;
-  transition: 0.5s;
 }

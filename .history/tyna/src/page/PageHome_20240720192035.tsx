@@ -1,6 +1,7 @@
 import img4 from '../../public/img/img4.png'
 import img4I from '../../public/img/img4.1.png'
 import img4II from '../../public/img/img4.2.png'
+import { IoCall } from "react-icons/io5";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 const PageHome = () => {
     return (
@@ -50,8 +51,9 @@ const PageHome = () => {
                         đầy năng lượng. Hãy chọn cho mình một loại tinh dầu nước hoa phù hợp và thử sức với những khám phá mới mẻ trong mỗi ngày hè
                         năng động này!</p>
                 </div>
-                <div className='flex items-center justify-center gap-5  mt-3'>
-                    <b className='bg-orange-400 p-2 rounded-md'>Gọi ngay hotline: 0856222454</b>
+                <div className='flex items-center gap-5 mt-3 bg-orange-300 p-3'>
+                    <IoCall className='text-[25px] text-green-600' />
+                    <p>Gọi ngay hotline: 0856222454</p>
                 </div>
             </div>
         </div>

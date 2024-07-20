@@ -140,7 +140,6 @@ input{
 }
 .imgAlt img{
   display: block;
-  transition: 0.5s;
 }
 .imgAlt .alt{
   display: none;

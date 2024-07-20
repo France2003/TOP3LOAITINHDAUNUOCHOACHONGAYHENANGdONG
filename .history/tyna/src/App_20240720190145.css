@@ -134,23 +134,9 @@ input{
   border:1px solid #404040;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
-.imgAlt{
-  position: relative;
-   display: inline-block;
-}
-.imgAlt img{
-  display: block;
-  transition: 0.5s;
-}
-.imgAlt .alt{
+.alt{
   display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 15px;
-  transition: 0.5s;
 }
-.imgAlt:hover .alt{
+.imgAlt img:hover .alt{
   display: block;
-  transition: 0.5s;
 }
